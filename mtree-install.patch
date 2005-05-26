@@ -1,0 +1,18 @@
+--- mtree-2005Q1/Makefile.in.orig	2004-08-21 08:33:39.000000000 +0200
++++ mtree-2005Q1/Makefile.in	2005-05-25 23:55:53.000000000 +0200
+@@ -41,9 +41,9 @@
+ 	rm -f configure.lineno config.log
+ 
+ install:
+-	$(INSTALL) -m 755 -d $(sbindir)
+-	$(INSTALL) -m 755 -d $(man8dir)
+-	$(INSTALL) -m 755 -d $(cat8dir)
+-	$(INSTALL) $(PROG) $(sbindir)
+-	$(INSTALL) -m 444 $(PROG).8 $(man8dir)/$(PROG).8
+-	$(INSTALL) -m 444 $(PROG).cat8 $(cat8dir)/$(PROG).0
++	$(INSTALL) -d $(DESTDIR)/$(sbindir)
++	$(INSTALL) -d $(DESTDIR)/$(man8dir)
++	$(INSTALL) -d $(DESTDIR)/$(cat8dir)
++	$(INSTALL) $(PROG) $(DESTDIR)/$(sbindir)
++	$(INSTALL) $(PROG).8 $(DESTDIR)/$(man8dir)/$(PROG).8
++	$(INSTALL) $(PROG).cat8 $(DESTDIR)/$(cat8dir)/$(PROG).0
