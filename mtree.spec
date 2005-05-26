@@ -5,6 +5,7 @@ Release:	0.1
 License:	BSD
 Group:		Libraries
 Source0:	%{name}-%{version}.tar.bz2
+# Source0-md5:	4ef4df775b876962a785f165df3a5eb2
 Patch0:		%{name}-install.patch
 URL:		http://www.netbsd.org/
 BuildRequires:	autoconf
