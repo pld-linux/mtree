@@ -1,5 +1,5 @@
 Summary:	mtree utility
-Summary(pl):	Narzêdzie mtree
+Summary(pl.UTF-8):   NarzÄ™dzie mtree
 Name:		mtree
 Version:	2005Q1
 Release:	0.1
@@ -21,12 +21,12 @@ Messages are written to the standard output for any files whose
 characteristics do not match the specification, or which are missing
 from either the file hierarchy or the specification.
 
-%description -l pl
-Narzêdzie mtree porównuje hierarchiê plików poczynaj±c od bie¿±cego
-katalogu ze specyfikacj± czytan± ze standardowego wej¶cia. Na
-standardowe wyj¶cie wypisywane s± komunikaty o wszystkich plikach,
-których cechy nie pasuj± do specyfikacji, albo których brakuje w
-hierarchii plików lub w specyfikacji.
+%description -l pl.UTF-8
+NarzÄ™dzie mtree porÃ³wnuje hierarchiÄ™ plikÃ³w poczynajÄ…c od bieÅ¼Ä…cego
+katalogu ze specyfikacjÄ… czytanÄ… ze standardowego wejÅ›cia. Na
+standardowe wyjÅ›cie wypisywane sÄ… komunikaty o wszystkich plikach,
+ktÃ³rych cechy nie pasujÄ… do specyfikacji, albo ktÃ³rych brakuje w
+hierarchii plikÃ³w lub w specyfikacji.
 
 %prep
 %setup -q -c
