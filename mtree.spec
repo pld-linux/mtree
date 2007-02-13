@@ -1,5 +1,5 @@
 Summary:	mtree utility
-Summary(pl.UTF-8):   Narzędzie mtree
+Summary(pl.UTF-8):	Narzędzie mtree
 Name:		mtree
 Version:	2005Q1
 Release:	0.1
