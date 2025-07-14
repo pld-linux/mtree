@@ -30,7 +30,7 @@ hierarchii plików lub w specyfikacji.
 
 %prep
 %setup -q -c
-%patch0 -p1
+%patch -P0 -p1
 
 %build
 %{__aclocal}
